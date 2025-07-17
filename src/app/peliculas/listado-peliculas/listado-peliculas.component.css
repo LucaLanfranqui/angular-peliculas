@@ -1,0 +1,19 @@
+.peliculas-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+.pelicula-container{
+    margin-right: 2%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+p{
+    max-width: 225;
+    font-size: 15px;
+    font-weight: bold;
+}
+button{
+    margin-left: 1rem;
+}

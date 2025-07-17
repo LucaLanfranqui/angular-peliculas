@@ -1,0 +1,12 @@
+
+@if (!listado) {
+    <div>
+        <img src="https://media.tenor.com/UnFx-k_lSckAAAAM/amalie-steiness.gif" />
+      </div>
+    }
+    @else if (listado.length === 0) {
+        <h1>NO HAY CONTENIDO PARA MOSTRAR</h1>
+    }
+    @else {
+        <ng-content select="[contenido]"></ng-content>
+    }
